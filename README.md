@@ -10,16 +10,8 @@ THEN they will receive a notification that they have added an expense or deposit
 WHEN the user reestablishes an internet connection
 THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated
 
-You’ll need to use IndexedDB to add offline functionality. Review Module 18: NoSQL, Lesson 4: Add Offline Persistence with IndexedDB as a refresher on how to add this to your application.
+## GitHub Repo: https://github.com/bshort985/budgetTracker
 
-You’ll also need to add a service worker to your application. Review Module 19: Progressive Web Applications (PWA), Lesson 4: Using Service Workers as a refresher on how to add this to your application.
+## GitHub URL: https://bshort985.github.io/budgetTracker/
 
-You should add your idb.js file to the public/js/ directory of your application.
-You should add your service worker to the root of the public/ directory of your application.
-
-Once you’ve updated the existing budget tracker, it should provide the following functionality:
--The ability to enter deposits offline.
--The ability to enter expenses offline.
--Offline entries should be added to the tracker when the application is brought back online.
-
-Finally, the budget tracker has a server and uses MongoDB as its database, so you’ll need to deploy this application to Heroku using MongoDB Atlas. To review this process, look at Module 18: NoSQL, Lesson 5: Add Mongoose Validation, specifically 18.5.5: Deploy to Heroku.
+![image](https://user-images.githubusercontent.com/97572888/177226648-d9172eb0-6465-40b5-bace-d7847b848f7d.png)
